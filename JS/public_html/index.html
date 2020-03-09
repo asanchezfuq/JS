@@ -115,5 +115,114 @@
                 document.getElementById("10").innerHTML = x;
             }
         </script>
+        <button onclick="myFunction11()">getUTCDate</button>
+
+        <p id="11"></p>
+
+        <script>
+            function myFunction11() {
+                var d = new Date();
+                var x = d.getUTCDate();
+                document.getElementById("11").innerHTML = x;
+            }
+        </script>
+        <button onclick="myFunction12()">getUTCDay</button>
+
+        <p id="12"></p>
+
+        <script>
+            function myFunction12() {
+                var d = new Date();
+                var x = d.getUTCDay();
+                document.getElementById("12").innerHTML = x;
+            }
+        </script>
+        <button onclick="myFunction13()">getUTCFullYear</button>
+
+        <p id="13"></p>
+
+        <script>
+            function myFunction13() {
+                var d = new Date();
+                var x = d.getUTCFullYear();
+                document.getElementById("13").innerHTML = x;
+            }
+        </script>
+        <button onclick="myFunction14()">getUTCHours</button>
+
+        <p id="14"></p>
+
+        <script>
+            function myFunction14() {
+                var d = new Date();
+                var x = d.getUTCHours();
+                document.getElementById("14").innerHTML = x;
+            }
+        </script>
+        <button onclick="myFunction15()">getUTCMilliseconds</button>
+
+        <p id="15"></p>
+
+        <script>
+            function myFunction15() {
+                var d = new Date();
+                var x = d.getUTCMilliseconds();
+                document.getElementById("15").innerHTML = x;
+            }
+        </script>
+        <button onclick="myFunction16()">getUTCMinutes</button>
+
+        <p id="16"></p>
+
+        <script>
+            function myFunction16() {
+                var d = new Date();
+                var x = d.getUTCMinutes();
+                document.getElementById("16").innerHTML = x;
+            }
+        </script>
+        <button onclick="myFunction17()">getUTCMonth</button>
+
+        <p id="17"></p>
+
+        <script>
+            function myFunction17() {
+                var d = new Date();
+                var x = d.getUTCMonth();
+                document.getElementById("17").innerHTML = x;
+            }
+        </script>
+        <button onclick="myFunction18()">getUTCSeconds</button>
+
+        <p id="18"></p>
+
+        <script>
+            function myFunction18() {
+                var d = new Date();
+                var x = d.getUTCSeconds();
+                document.getElementById("18").innerHTML = x;
+            }
+        </script>
+        <button onclick="myFunction19()">parse</button>
+
+        <p id="19"></p>
+
+        <script>
+            function myFunction19() {
+                var x = Date.parse("March 30, 2011");
+                document.getElementById("19").innerHTML = x;
+            }
+        </script>
+        <button onclick="myFunction20()">setDate</button>
+
+        <p id="20"></p>
+
+        <script>
+            function myFunction20() {
+                var d = new Date();
+                d.setDate(17);
+                document.getElementById("20").innerHTML = d;
+            }
+        </script>
     </body>
 </html>
