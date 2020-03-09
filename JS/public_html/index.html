@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Objetos Nativos JavaScript</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
@@ -25,6 +25,94 @@
                 var d = new Date();
                 var x = d.getDay();
                 document.getElementById("2").innerHTML = x;
+            }
+        </script>
+        <button onclick="myFunction3()">getFullYear</button>
+
+        <p id="3"></p>
+
+        <script>
+            function myFunction3() {
+                var d = new Date();
+                var x = d.getFullYear();
+                document.getElementById("3").innerHTML = x;
+            }
+        </script>
+        <button onclick="myFunction4()">getHours</button>
+
+        <p id="4"></p>
+
+        <script>
+            function myFunction4() {
+                var d = new Date();
+                var x = d.getHours();
+                document.getElementById("4").innerHTML = x;
+            }
+        </script>
+        <button onclick="myFunction5()">getMilliseconds</button>
+
+        <p id="5"></p>
+
+        <script>
+            function myFunction5() {
+                var d = new Date();
+                var x = d.getMilliseconds();
+                document.getElementById("5").innerHTML = x;
+            }
+        </script>
+        <button onclick="myFunction6()">getMinutes</button>
+
+        <p id="6"></p>
+
+        <script>
+            function myFunction6() {
+                var d = new Date();
+                var x = d.getMinutes();
+                document.getElementById("6").innerHTML = x;
+            }
+        </script>
+        <button onclick="myFunction7()">getMonth</button>
+
+        <p id="7"></p>
+
+        <script>
+            function myFunction7() {
+                var d = new Date();
+                var x = d.getMonth();
+                document.getElementById("7").innerHTML = x;
+            }
+        </script>
+        <button onclick="myFunction8()">getSeconds</button>
+
+        <p id="8"></p>
+
+        <script>
+            function myFunction8() {
+                var d = new Date();
+                var x = d.getSeconds();
+                document.getElementById("8").innerHTML = x;
+            }
+        </script>
+        <button onclick="myFunction9()">getTime</button>
+
+        <p id="9"></p>
+
+        <script>
+            function myFunction9() {
+                var d = new Date();
+                var x = d.getTime();
+                document.getElementById("9").innerHTML = x;
+            }
+        </script>
+        <button onclick="myFunction10()">getTimezoneOffset</button>
+
+        <p id="10"></p>
+
+        <script>
+            function myFunction10() {
+                var d = new Date();
+                var x = d.getTimezoneOffset();
+                document.getElementById("10").innerHTML = x;
             }
         </script>
     </body>
